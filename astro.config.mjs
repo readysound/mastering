@@ -8,7 +8,7 @@ import vercel from '@astrojs/vercel';
 export default defineConfig({
   integrations: [
       starlight({
-          title: 'My Docs',
+          title: 'Readysound',
           social: {
               github: 'https://github.com/withastro/starlight',
           },
@@ -18,8 +18,12 @@ export default defineConfig({
                   autogenerate: { directory: 'introduction' },
               },
               {
-                  label: 'Guides',
-                  autogenerate: { directory: 'guides' },
+                label: 'Fundamentals',
+                autogenerate: { directory: 'fundamentals' },
+            },
+              {
+                  label: 'Signal Processing',
+                  autogenerate: { directory: 'signal processing' },
               },
               {
                   label: 'Reference',
