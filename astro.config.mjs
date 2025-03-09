@@ -26,8 +26,8 @@ export default defineConfig({
                   autogenerate: { directory: 'signal processing' },
               },
               {
-                  label: 'Reference',
-                  autogenerate: { directory: 'reference' },
+                  label: 'Workflow',
+                  autogenerate: { directory: 'workflow' },
               },
           ],
       }),
