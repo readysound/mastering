@@ -29,6 +29,14 @@ export default defineConfig({
                   label: 'Workflow',
                   autogenerate: { directory: 'workflow' },
               },
+              {
+                label: 'Advanced Techniques',
+                autogenerate: { directory: 'advanced techniques' },
+            },
+            {
+              label: 'Preparing For Distribution',
+              autogenerate: { directory: 'preparing for distribution' },
+          },
           ],
       }),
 	],
